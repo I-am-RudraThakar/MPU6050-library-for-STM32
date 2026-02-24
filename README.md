@@ -24,7 +24,8 @@ InitializationAdd the initialization and calibration function inside your
 >}\
 
 Data AccessThe library processes raw values into a true_reading structure using standard units (g-force and degrees per second):\
-VariableDescriptionUnit true_reading.axceloro[0-2] 3-Axis Accelerometer Data g \
-true_reading.gyro[0-2] 3-Axis Gyroscope Data°/s 
-true_reading.temp Internal Die Temperature°C\
-true_reading.base_value Stored Calibration Offsets Raw/Float.
+VariableDescriptionUnit\ 
+true_reading.axceloro[0-2] -->3-Axis Accelerometer Data g \
+true_reading.gyro[0-2] -->3-Axis Gyroscope Data°/s \
+true_reading.temp -->Internal Die Temperature°C\
+true_reading.base_value -->Stored Calibration Offsets Raw/Float.
